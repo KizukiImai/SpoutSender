@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxColorPicker.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxInputField.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\src\ofxSpout2Receiver.cpp">
+			<Filter>addons\ofxSpout2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\src\ofxSpout2Sender.cpp">
+			<Filter>addons\ofxSpout2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutCopy.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutDirectX.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutGLDXinterop.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutGLextensions.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutMemoryShare.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutReceiver.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutSDK.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutSender.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutSenderNames.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutSharedMemory.cpp">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{F39C0DCA--074-8-44-A2-B-C88-956706234C7F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGui">
+			<UniqueIdentifier>{A8DAE090--FE5-7-4A-89-B-026-58729F1BFBEB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxGui\src">
+			<UniqueIdentifier>{4FBA9016--3C9-0-49-F0-B-2DF-AB504A9FEF6C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSpout2">
+			<UniqueIdentifier>{7CD5D227--7DD-A-4F-96-A-914-26E839ED4C5E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSpout2\src">
+			<UniqueIdentifier>{977E2857--8A3-C-41-C7-A-9A8-0B89E84936D9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSpout2\libs">
+			<UniqueIdentifier>{6D667EAC--2CE-2-48-E0-8-E8B-02A8010BC923}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSpout2\libs\spout">
+			<UniqueIdentifier>{4EEB10C4--D87-A-49-3C-A-0FC-E6942619F7B3}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxColorPicker.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiUtils.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxInputField.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+			<Filter>addons\ofxGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\src\ofxSpout2Receiver.h">
+			<Filter>addons\ofxSpout2\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\src\ofxSpout2Sender.h">
+			<Filter>addons\ofxSpout2\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\Spout.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutCommon.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutCopy.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutDirectX.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutGLDXinterop.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutGLextensions.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutMemoryShare.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutReceiver.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutSDK.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutSender.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutSenderNames.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSpout2\libs\spout\SpoutSharedMemory.h">
+			<Filter>addons\ofxSpout2\libs\spout</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
