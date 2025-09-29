@@ -1,2 +1,0 @@
-ofxGui
-ofxSpout2
