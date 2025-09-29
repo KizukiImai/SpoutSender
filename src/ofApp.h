@@ -10,24 +10,26 @@ public:
     void draw() override;
     void exit() override;
 
-    static const int NUM_FBO = 4;
+    static const int NUM_FBO = 4;     // プレビュー用FBO
+    static const int MAX_CAM = 8;     // 最大カメラ数
+    static const int CAM_OUT_W = 1920;  // 送信解像度
+    static const int CAM_OUT_H = 1080;
+    static const int PREV_W = 640;   // プレビュー解像度
+    static const int PREV_H = 360;
 
-    // カメラ（コピー回避のため unique_ptr で保持）
+private:
+    bool isVirtualOrUnsupported(const std::string& name) const;
+
     std::vector<std::unique_ptr<ofVideoGrabber>> cams;
-    std::vector<ofTexture> camTex;   // 生映像を入れるテクスチャ
+    std::vector<ofTexture> camRawTex;
+    std::vector<ofFbo> camFbo1080;
 
-    // FBO（固定）
     ofFbo fbos[NUM_FBO];
 
-    // GUI
     ofxPanel gui;
     ofParameterGroup params;
-    std::vector<ofParameter<int>> assign; // 各FBOに割り当てるカメラ番号（-1=未割当）
+    std::vector<ofParameter<int>> assign;
 
-    // ===== Spout Sender =====
-    // カメラの生映像を送信（カメラ台数ぶん）
-    std::vector<ofx::spout2::Sender> camSender;
-
-    // FBO内容も送る場合（任意）
-    ofx::spout2::Sender fboSender[NUM_FBO];
+    // ★ 固定長配列として管理
+    ofx::spout2::Sender camSender[MAX_CAM];
 };
